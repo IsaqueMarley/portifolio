@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, helvetice, sans-serif;
+    color: white;
+}
+
+
+/*GERAL*/
+
+.text-center{
+    text-align: center;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+
+/*---------------------*/
+.container-header{
+    text-align: center;
+    padding: 20px;
+    background-color: #04233f;
+
+}
+
+.container-header h3 a {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
+    text-decoration: none;
+
+}
+
+/*------------------------*/
+.container-nav{
+    text-align:  center;
+    padding: 20px;
+    background-color: #06345d;
+
+}
+.container-nav a{
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #7cc2ff;
+}
+
+.container-nav a:hover{
+
+    color: #ffffff;
+}
+
+.container-portifolio{
+    background-color: #05192a;
+    overflow: auto;
+}
+
+.container-portifolio .portifolio{
+    float: center;
+    margin: 60px auto;
+    background-color: #061f35;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-portifolio .portifolio .icone{
+    margin-bottom: 10px;
+}
+.container-portifolio .port-texto{
+    font-family: 'Curier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #01c4ff;
+}
+.container-portifolio .port-texto1{
+    font-family: 'Curier New', Courier, monospace;
+    
+    font-size: 1.2em;
+    color: #01c4ff;
+}
+
+.container-portifolio .port-texto-realce{
+    color: white;
+    font-weight: bold;
+}
+/*---------------------------*/
+
+.container-port-contato{
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+.container-port-contato .botoes-port-contato{
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+.botoes-port-contato a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.botoes-port-contato a:hover{
+    background-color: white;
+    color:black;
+}
+
+/*----------------------------*/
+
+.container-formacao{
+    background-color: #02111f;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-formacao h3{
+    color: #2097ff;
+    padding: 20px 0;
+    text-align: center;
+}
+.container-formacao span{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+/*---------------------------------*/
+.container-contatos{
+    background-color: #05192a;
+    padding: 80px;
+}
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos .contatos{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
+.container-contatos .contatos:hover{
+    color: white;
+ 
+}
+
+/*-------------------------------------------*/
+
+
+
+.container-projetos{
+    background-color: #05192a;
+    overflow: auto;
+    
+}
+
+.container-projetos .projetos{
+    float: left;
+    margin: 15px ;
+    background-color: #061f35;
+    width: 20%;
+    max-width: 20%;
+    padding: 10px;
+    border-radius: 65px;
+    text-align: center;
+
+}
+
+.container-projetos .projetos .icone{
+    margin-bottom: 10px;
+}
+.container-projetos .proj-texto{
+    font-family: 'Curier New', Courier, monospace;
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #01c4ff;
+}
+.container-projetos .proj-texto1{
+    font-family: 'Curier New', Courier, monospace;
+    font-size: 1em;
+    color: #ffffff;
+}
+/*
+.container-projetos .port-texto-realce{
+    color: white;
+    font-weight: bold;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------*/
+footer{
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+    color: gray;
+}
