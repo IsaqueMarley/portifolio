@@ -119,6 +119,7 @@ body{
 /*----------------------------*/
 
 .container-formacao{
+    
     background-color: #02111f;
     font-size: 1.1em;
     padding: 60px;
@@ -130,9 +131,9 @@ body{
     padding: 20px 0;
     text-align: center;
 }
-.container-formacao span{
-    margin: 0;
-    padding: 0;
+.container-formacao h4{
+    color: white;
+    margin: 10px auto;
     text-align: center;
 
 }
